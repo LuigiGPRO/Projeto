@@ -52,10 +52,15 @@ header figure {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .cabeçalho_texto {
-    background-color: green;
+    background-color: #008000;
     width: 100%;
     height: 500px;
     box-sizing: border-box;
@@ -147,11 +152,34 @@ header figure {
     color: white;
 }
 
+.nossos_serviços {
+    align-self: flex-start;
+    background-color: #008000;
+    color: rgb(0, 0, 0);
+    border: 2px solid #008000;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'New Spirit', serif;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+    justify-self: left
+}
+
+.nossos_serviços:hover {
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+}
+
 .layout_preto {
     margin-top: 80px;
     width: 100%;
-    height: 1050px;
-    background-color: rgb(0, 0, 0);
+    height: 1450px;
+    background: #FFFFFF url("../images/background.jpg") no-repeat;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -169,16 +197,17 @@ header figure {
     align-items: flex-start;
 }
 .layout_preto_conteudo .left-col {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .layout_preto_conteudo .right-col {
-    width: 50%;
+    width: 60%;
     display: flex;
     margin-right: 30px;
+    margin-left: 200px;
     flex-direction: column;
     gap: 40px;
 }
@@ -187,6 +216,7 @@ header figure {
     margin: 0 0 10px 0;
     color: white;
     align-self: flex-start;
+    font-size: 30px;
 }
 
 .layout_preto_conteudo p {
@@ -195,6 +225,7 @@ header figure {
     margin: 0 0 10px 0;
     position: relative;
     padding-bottom: 140px;
+    font-size: 20px;
 }
 
 .layout_preto_conteudo p::after {
