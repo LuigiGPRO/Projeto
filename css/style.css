@@ -150,15 +150,77 @@ header figure {
 .layout_preto {
     margin-top: 80px;
     width: 100%;
-    height: 800px;
-    background-color: black;
+    height: 1050px;
+    background-color: rgb(0, 0, 0);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 40px;
+    padding-top: 20px;
 }
+.layout_preto_conteudo {
+    display: flex;
+    gap: 40px;
+    width: 900px;
+    margin: 0 auto;
+    margin-left: 80px;
+    align-items: flex-start;
+}
+.layout_preto_conteudo .left-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.layout_preto_conteudo .right-col {
+    width: 50%;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.layout_preto_conteudo h3 {
+    margin: 0 0 10px 0;
+    color: white;
+    align-self: flex-start;
+}
+
+.layout_preto_conteudo p {
+    text-align: justify;
+    color: white;
+    margin: 0 0 10px 0;
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.layout_preto_conteudo p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 300px;
+    height: 2px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.layout_preto > h2, .layout-preto-top {
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 30px;
+    align-self: flex-start;
+}
+
+.layout_preto > h2, .layout-preto-top {
+    color: white;
+    font-size: 40px;
+    margin: 80px;
+    align-self: flex-start;
+}
+
 @font-face {
     font-family: 'New Spirit';
     src: url('../fonts/NewSpirit-Regular.woff2') format('woff2'),
