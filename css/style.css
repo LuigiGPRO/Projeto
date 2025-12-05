@@ -478,11 +478,22 @@ hr {
 }
 
 #email-input {
-    width: 15%;
+    width: 14%;
     height: 60px;
     background-color: white;
-    border-radius: 10%;
+    border: 2px solid gray;
+    padding-left: 20px;
 }
+
+.cadastrar-email {
+    border-radius: 9%;
+    background-color: green;
+    border: 2px solid green;
+    width: 10%;
+    height: 60px;
+    color: white;
+}
+
 .adicionar-email > p{
     font-size: 12px;
 }
