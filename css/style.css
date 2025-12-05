@@ -2,6 +2,7 @@
     font-family: 'New Spirit', serif;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 
 @font-face {
@@ -476,6 +477,12 @@ hr {
     margin-left: 5%;
 }
 
+#email-input {
+    width: 15%;
+    height: 60px;
+    background-color: white;
+    border-radius: 10%;
+}
 .adicionar-email > p{
     font-size: 12px;
 }
@@ -526,5 +533,7 @@ hr {
 
 .logo-final > h1 {
     font-size: 90px;
-    margin-left: 5%;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-bottom: 9%;
 }
