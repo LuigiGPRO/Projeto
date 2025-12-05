@@ -8,6 +8,12 @@
     <link href = "css/style.css" rel = "stylesheet"/>
     <link rel="icon" href="Site/images/logo-Paisagem.png" type="image/png">
 
+    <script src="js/letreiro.js" defer> </script> <!--
+                                                    O defer garante que o script
+                                                    será carregado junto com o HTML e 
+                                                    só rodará depois que todo o HTML estiver pronto.
+                                                    -->
+
     <title>Paisagem</title>
     
 </head>
@@ -108,37 +114,55 @@
                  -->
                 <div class="parte_4">
                     <div class="div_1-parte_4">
-                        <h6>
-                            NOSSA MISSÃO
-                        </h6>
+                        <div class="link-info_1">
+                            <h6>
+                                NOSSA MISSÃO
+                            </h6>
                     
+                            <p>
+                                No Cedar, atingir suas <br>metas financeiras não é <br>nenhum mistério
+                            </p>
 
-                        <p>
-                            No Cedar, atingir suas <br>metas financeiras não é <br>nenhum mistério
-                        </p>
+                        </div>
+
+                        <a href="https://cedar-fluid-demo-pt.squarespace.com/about" class="botao_link">
+                                SAIBA MAIS SOBRE A GENTE 
+                        </a>
+                        
+                        <div class="imagem_1-parte_4">
+                            <img src="images/image-asset.webp" alt="Trabalho em equipe">  
+                        </div>
+
+                    </div>    
+
+                    <img src="images/Arc.webp" alt="Linha curvada decorativa" class="imagem_2-parte4">
+                    
+                    <div class="letreiro-texto">
+                       
+                        <div class="conteudo-letreiro" id="letreiro">
+                        
+                            <h2 id="letreiro">
+                                Progressivo &#x25CF; Equitativo &#x25CF; Inventivo &#x25CF; <!-- &#x25CF; código unicode para este simbolo: ●-->
+                            </h2>
+
+                        </div>
                     </div>
-
-                    <img src="Site/images/250px-2023_Facebook_icon.svg.webp" alt="Facebook" style="width: 40px; height: 40px;">
-
-                    <a href="https://cedar-fluid-demo-pt.squarespace.com/about">
-                            SAIBA MAIS SOBRE A GENTE 
-                    </a>
-
-                    <h2>
-                        Progressivo &#x25CF; Equitativo &#x25CF; Inventivo &#x25CF; <!-- &#x25CF; código unicode para este simbolo: ●-->
-                    </h2>
+                    
                 </div>
 
-                <div class="parte-5">
-                    <h4>
-                        ARTIGOS PARA EXCELÊNCIA FINANCEIRA
-                    </h4>
-                    
-                    <h3>
-                        Anotações do nosso diário
-                    </h3>
+                <div class="parte_5">
+                    <div class="conteudo-parte_5">
+                        <h4>
+                            ARTIGOS PARA EXCELÊNCIA FINANCEIRA
+                        </h4>
+                        
+                        <h3>
+                            Anotações do nosso diário
+                        </h3>
+                    </div>
 
-                    <div class="link-irmao1">
+                    <div class="link-irmao_1">
+                        
                         <a 
                             href="https://cedar-fluid-demo-pt
                             .squarespace.com/journal/
@@ -155,7 +179,7 @@
                         </h6>
                     </div>
                         
-                    <div class="link-irmao2">
+                    <div class="link-irmao_2">
                         <a 
                             href="https://cedar-fluid-demo-pt.
                             squarespace.com/journal/why-do-i-need
@@ -171,70 +195,99 @@
                         <h6>
                             29 de set. de 2022
                         </h6>
-
-                        <h1>
-                            Coloque uma linha preta de separação entre
-                            seção aqui.
-                        </h1>
-                    
                     </div>
 
+                    <hr>
 
                 </div>
             </main>
 
-            <footer class="parte-6"> <!--O rodapé da página.-->
+            <footer class="parte_6"> <!--O rodapé da página.-->
                 <div class="adicionar-email">
                     <h4>
-                        Deixe o seu e-mail para se manter informado
+                        Deixe o seu e-mail para se <br> manter informado
                     </h4>
                     
                     <p>
                         Cadastre seu endereço de e-mail para receber novidades e atualizações.
                     </p>
 
-                    <input id="email-input" type="email">
-                        Endereço de e-mail
-                    </input>
+                    <input id="email-input" type="email" placeholder="Endereço de e-mail"></input>
 
                     <button>
                         Cadastre-se
                     </button>
+
+                    <h6>
+                        Valorizamos e respeitamos sua privacidade.
+                    </h6>
                 </div>
 
-                <div class="rodape-info">
+                <div class="rodape-info_1">
+                    
                     <h5>
                         Aprenda
                     </h5>
 
-                    <a 
+                    <a
                         href="https://cedar-fluid-demo-
                         pt.squarespace.com/services">
                         SERVIÇOS
                     </a>
 
-                    <a 
-                        href="https://cedar-fluid-demo-
-                        pt.squarespace.com/about">
-                        SOBRE NÓS
-                    </a>
+                    <div class="link_1-rodape">
+                        <a
+                            href="https://cedar-fluid-demo-
+                            pt.squarespace.com/about">
+                            SOBRE NÓS
+                        </a>
+                    </div>
 
-                    <a 
-                        href="https://cedar-fluid-demo-
-                        pt.squarespace.com/journal">
-                        DIÁRIO
-                    </a>
+                    <div class="link_2-rodape">
+                        <a 
+                            href="https://cedar-fluid-demo-
+                            pt.squarespace.com/journal">
+                            DIÁRIO
+                        </a>
+                    </div>
+
                 </div>
 
-                <div>
+                <div class="rodape-info_2">
+
                     <h5>
-                        Valorizamos e respeitamos sua privacidade.
+                        FALE CONOSCO
                     </h5>
+
+                    <a href="https://cedar-fluid-demo-pt.squarespace.com/get-started">
+                        COMECE JÁ
+                    </a>
+
                 </div>
                 
-                <h1>
-                    Inserir linha preta de separação aqui
-                </h1>
+                <div class="rodape-info_3">
+                    <h5>
+                        SIGA A GENTE
+                    </h5>
+
+                        <a href="http://twitter.com/squarespace" target="_blank">
+                            <img src="images\150897973_10462343.png" alt="Descrição da imagem">
+                        </a>
+                        
+                        <a href="http://facebook.com/squarespace" target="_blank" >
+                            <img src="images\150898074_10483410.png" alt="Descrição da imagem">
+                        </a>
+
+                        <a href="https://www.linkedin.com/company/squarespace/mycompany/verification/" target="_blank">
+                            <img src="images\150898107_10462330.png" alt="Descrição da imagem">
+                        </a>
+
+                </div>
+
+                <div class="espacamento"></div>
+
+                <hr>
+
             </footer>
 
             <div class="logo-final">
