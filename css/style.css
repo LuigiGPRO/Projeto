@@ -1,257 +1,3 @@
-header {
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-header h1 {
-    margin: 0;
-    color: rgb(0, 0, 0);
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 0;
-}
-
-header nav {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-header nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-header figure {
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-.shopping-cart-icon {
-    color: rgb(0, 0, 0);
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.cabeçalho_texto {
-    background-color: #008000;
-    width: 100%;
-    height: 500px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'New Spirit', serif;
-}
-
-.cabeçalho_texto p {
-    text-align: center;
-    margin: 0;
-    padding: 40px;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-}
-
-.cabeçalho_texto h2 {
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    color: rgb(0, 0, 0);
-    font-size: 150px;
-}
-
-.layout_branco {
-    width: 100%;
-    height: 750px;
-    background-color: white;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.layout_branco h6 {
-    align-self: flex-start;
-    margin-top: 120px;
-    font-size: 10px;
-    width: 100%;
-    text-align: left;
-}
-
-.layout_branco p {
-    text-align: justify;
-    font-size: 46.5px;
-}
-
-.fonte-principal-index {
-    font-family: 'New Spirit', serif;
-    font-style: normal;
-    font-weight: 300;
-    margin: 0%;
-}
-
-.layout_branco-conteudo {
-    width: 820px;
-    height: 600px;
-    background-color: white;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.botao-comece {
-    align-self: flex-start;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 300;
-    font-family: 'New Spirit', serif;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-    justify-self: left
-}
-
-.botao-comece:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-.nossos_serviços {
-    align-self: flex-start;
-    background-color: #008000;
-    color: rgb(0, 0, 0);
-    border: 2px solid #008000;
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 300;
-    font-family: 'New Spirit', serif;
-    cursor: pointer;
-    margin-top: 60px;
-    margin-left: 80px;
-    margin-bottom: 40px;
-    transition: all 0.3s ease;
-    justify-self: left
-}
-
-.nossos_serviços:hover {
-    background-color: rgb(250, 250, 250);
-    color: rgb(0, 0, 0);
-}
-
-.layout_preto {
-    margin-top: 80px;
-    width: 100%;
-    height: 1450px;
-    background: #FFFFFF url("../images/background.jpg") no-repeat;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 40px;
-    padding-top: 20px;
-}
-.layout_preto_conteudo {
-    display: flex;
-    gap: 40px;
-    width: 900px;
-    margin: 0 auto;
-    margin-left: 80px;
-    align-items: flex-start;
-}
-.layout_preto_conteudo .left-col {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.layout_preto_conteudo .right-col {
-    width: 60%;
-    display: flex;
-    margin-right: 30px;
-    margin-left: 200px;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.layout_preto_conteudo h3 {
-    margin: 0 0 10px 0;
-    color: white;
-    align-self: flex-start;
-    font-size: 30px;
-}
-
-.layout_preto_conteudo p {
-    text-align: justify;
-    color: white;
-    margin: 0 0 10px 0;
-    position: relative;
-    padding-bottom: 140px;
-    font-size: 20px;
-}
-
-.layout_preto_conteudo p::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 300px;
-    height: 2px;
-    background-color: #ffffff;
-    width: 100%;
-}
-
-.layout_preto > h2, .layout-preto-top {
-    color: white;
-    font-size: 40px;
-    margin: 0 0 0 30px;
-    align-self: flex-start;
-}
-
-.layout_preto > h2, .layout-preto-top {
-    color: white;
-    font-size: 40px;
-    margin: 80px;
-    align-self: flex-start;
-}
-
 @font-face {
     font-family: 'New Spirit';
     src: url('../fonts/NewSpirit-Regular.woff2') format('woff2'),
@@ -319,3 +65,278 @@ header figure {
     width: 40%;
     height: 8%;
 }
+
+/* Estilos da fonte principal do index */
+.fonte-principal-index {
+    font-family: 'New Spirit', serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0%;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Estilos do cabeçalho */
+header h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+/* Estilos do cabeçalho */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+/* Estilos do cabeçalho */
+header nav {
+    margin: 0;
+}
+/* Estilos do cabeçalho */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+/* Estilos do cabeçalho */
+header nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+/*  Estilos do cabeçalho */
+header nav a:hover {
+    text-decoration: underline;
+}
+/* Estilos do cabeçalho */
+header figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+/* Estilos do icone de sifrão do cabeçalho */
+.shopping-cart-icon {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+/* Estilos do texto do cabeçalho secundario e backgroud */
+.cabeçalho_texto {
+    background-color: #008000;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'New Spirit', serif;
+}
+/* Estilos do texto do paragrafo do cabeçalho secundario*/
+.cabeçalho_texto p {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+/* Estilos do título do cabeçalho secundario*/
+.cabeçalho_texto h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+}
+
+/* Estilos da seção branca parte inicial apresentando a cedar group*/
+.layout_branco {
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Estilos do titulo da seção branca parte inicial apresentando a cedar group*/
+.layout_branco h6 {
+    align-self: flex-start;
+    margin-top: 120px;
+    font-size: 10px;
+    width: 100%;
+    text-align: left;
+}
+/* formatação do texto dos paragrafos da seção branca parte inicial apresentando a cedar group*/
+.layout_branco p {
+    text-align: justify;
+    font-size: 46.5px;
+}
+
+/* Estilos do conteúdo da seção branca parte inicial apresentando a cedar group*/
+.layout_branco-conteudo {
+    width: 820px;
+    height: 600px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Estilos do botão comece agora da seção branca parte inicial apresentando a cedar group*/
+.botao-comece {
+    align-self: flex-start;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'New Spirit', serif;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    justify-self: left
+}
+
+/* Efeito hover do botão comece agora da seção branca parte inicial apresentando a cedar group*/
+.botao-comece:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+ /*Estilos do botão nossos serviços da seção de serviços no corpo da pagina*/
+.nossos_serviços {
+    align-self: flex-start;
+    background-color: #008000;
+    color: rgb(0, 0, 0);
+    border: 2px solid #008000;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'New Spirit', serif;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+    justify-self: left
+}
+
+/* Efeito hover do botão nossos serviços da seção de serviçosdo no corpo da pagina*/
+.nossos_serviços:hover {
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos da seção sobre nossos serviços*/
+.layout_preto {
+    margin-top: 80px;
+    width: 100%;
+    height: 1330px;
+    background: #FFFFFF url("../images/background.jpg") no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços*/
+.layout_preto_conteudo {
+    display: flex;
+    gap: 40px;
+    width: 900px;
+    margin: 0 auto;
+    margin-left: 80px;
+    align-items: flex-start;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços alinhamento paragrafos 1 e 3*/
+.layout_preto_conteudo .left-col {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços alinhamento paragrafo 2*/
+.layout_preto_conteudo .right-col {
+    width: 60%;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 200px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços alinhamento h3*/
+.layout_preto_conteudo h3 {
+    margin: 0 0 10px 0;
+    color: white;
+    align-self: flex-start;
+    font-size: 30px;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços alinhamento paragrafo*/
+.layout_preto_conteudo p {
+    text-align: justify;
+    color: white;
+    margin: 0 0 10px 0;
+    position: relative;
+    padding-bottom: 140px;
+    font-size: 15px;
+}
+
+/* Estilos do conteúdo da seção sobre nossos serviços da linha abaixo dos paragrafos*/
+.layout_preto_conteudo p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 300px;
+    height: 2px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+/* Estilos do título da seção sobre nossos serviços*/
+.layout_preto > h2, .layout-preto-top {
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 30px;
+    align-self: flex-start;
+}
+
+/* Estilos do título da seção sobre nossos serviços*/
+.layout_preto > h2, .layout-preto-top {
+    color: white;
+    font-size: 40px;
+    margin: 80px;
+    align-self: flex-start;
+}
+
